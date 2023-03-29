@@ -2,24 +2,35 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const isMessage = true;
+  const message = "Hello world"
+
+  const todos = ["Learn reajs","Learn vuejs"]
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      { 
+        todos.map((todo, index) => {
+          return <p key={index} >{todo}</p>
+        })
+      }
     </div>
   );
 }
+// function App() {
+//   const isUserLoggedIn = true;
 
+//   return (
+//     <div>
+//       {isUserLoggedIn ? (
+//         <h1>Hello User</h1>
+//       ) : (
+//         <h1>Login Now</h1>
+//       )}
+//     </div>
+//   );
+// }
 export default App;
+
+
+
+
