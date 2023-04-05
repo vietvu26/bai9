@@ -13,36 +13,33 @@ import Greeting from "./Greeting";
 
 
 // const DemoComponent = (props)=> {
-//   return(
+//   return (
 //     <div>
-// <div> Day la tuoi : {props.age}</div>
-//     <div> Day la ten : {props.displayName}</div>
-
+//       <div>Đây là tuổi: {props.age}</div>
+//       <div>Đây là tên: {props.displayName}</div>
 //     </div>
-    
-    
-//   )
-
-// }
+//   );
+// };
 
 
 function App() {
-//   const [age, setAge] = useState(0);
-//   const [name, setname] = useState('cee')
-//   const onIncreaseAge = () => {
-//     setAge(age + 1)
-//   }
-//   return(
-//     // <div>
-//     //   <HelloWorld/>
-//     // </div>
+  // const [age, setAge] = useState(0);
+  // const [name, setName] = useState('cee')
+  // const onIncreaseAge = () => {
+  //   setAge(age + 1)
+  // }
+  return(
+    // <div>
+    //   <HelloWorld/>
+    // </div>
     <div className='container'>
-    {<Header/>
+    <Header/>
     <div>Day la header</div>
-    <div>Day la header</div>}
-//     <div>{age}</div>
-//     <div>Tang age len 1</div>
-//     <DemoComponent age={age} displayName={name}/>
+    <div>Day la header</div>
+    
+    {/* <div>{age}</div>
+    <div>Tang age len 1</div>
+    <DemoComponent age={age} displayName={name}/> */}
 
 
 </div>
