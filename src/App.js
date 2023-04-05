@@ -26,7 +26,7 @@ import Greeting from "./Greeting";
 // }
 
 
-// function App() {
+function App() {
 //   const [age, setAge] = useState(0);
 //   const [name, setname] = useState('cee')
 //   const onIncreaseAge = () => {
@@ -36,19 +36,19 @@ import Greeting from "./Greeting";
 //     // <div>
 //     //   <HelloWorld/>
 //     // </div>
-//     <div className='container'>
-//     {/* <Header/>
-//     <div>Day la header</div>
-//     <div>Day la header</div> */}
+    <div className='container'>
+    {<Header/>
+    <div>Day la header</div>
+    <div>Day la header</div>}
 //     <div>{age}</div>
 //     <div>Tang age len 1</div>
 //     <DemoComponent age={age} displayName={name}/>
 
 
-// </div>
-//   )
-// }
-// export default App;
+</div>
+  )
+}
+export default App;
 
 // Thuc hanh 4
 // export default function App() {
@@ -69,19 +69,19 @@ import Greeting from "./Greeting";
 
 
 
-function App () {
-  const [name, setName] = useState("");
+// function App () {
+//   const [name, setName] = useState("");
 
-  return(
-    <div className="App">
+//   return(
+//     <div className="App">
       
-      <UserForm setName={setName} />
-      <Greeting name={name} />
-    </div>
+//       <UserForm setName={setName} />
+//       <Greeting name={name} />
+//     </div>
 
-  )
-}
-export default App;
+//   )
+// }
+// export default App;
 
     
   
